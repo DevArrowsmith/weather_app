@@ -30,4 +30,11 @@ App format:
 
 <img src="./readme-assets/scheme001.png" alt="Scheme of the weather app" width="800px"/>
 
+---
+## Quick Links
 
+- [Components and Rendering](https://hackmd.io/s/ryKpNrWKV)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+    - [Cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet/) 
+- [Props](https://hackmd.io/s/BkA-BB-FN)
+- [Prop-Types](https://www.npmjs.com/package/prop-types)

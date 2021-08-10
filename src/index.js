@@ -5,8 +5,8 @@ import App from "./components/App";
 import { location } from "./data/mock-forecast.json";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App location={location} />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <App location={location} />
+    </React.StrictMode>,
+    document.getElementById("root")
 );

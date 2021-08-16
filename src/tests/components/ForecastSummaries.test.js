@@ -30,4 +30,11 @@ describe("ForecastSummaries", () => {
         );
         expect(asFragment()).toMatchSnapshot();
     });
+
+    it("renders the correct number of forecasts", () => {
+        const { getAllByTestId } = render(
+            <ForecastSummaries forecasts={validProps} />
+        );
+        expect(getAllByTestId("forecast-summary")).toHaveLength(2);
+    });
 });

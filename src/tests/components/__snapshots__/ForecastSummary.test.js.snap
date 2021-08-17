@@ -28,7 +28,10 @@ exports[`ForecastSummary renders correctly (snapshot) 1`] = `
       class="forecast-summary__icon"
       data-testid="forecast-icon"
     >
-      Stub icon
+      <i
+        class="wi wi-day-sunny"
+        name="owm"
+      />
     </div>
   </div>
 </DocumentFragment>

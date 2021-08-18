@@ -6,7 +6,6 @@ import moment from "moment";
 const ForecastSummary = ({ date, temperature, description, icon }) => {
     return (
         <div className="forecast-summary" data-testid="forecast-summary">
-            <h2>Forecast Summary</h2>
             <div className="forecast-summary__date">
                 {moment(date).format("ddd Do MMM")}
             </div>

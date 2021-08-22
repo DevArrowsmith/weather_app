@@ -13,7 +13,7 @@ const ForecastDetails = ({ forecast }) => {
             </div>
             <div className="forecast-details__description">{description}</div>
             <div className="forecast-details__icon" data-testid="forecast-icon">
-                <WeatherIcon name="owm" iconId={icon} />
+                <WeatherIcon name="owm" iconId={icon.toString()} />
             </div>
             <div className="forecast-details__temperature-max">
                 Maximum temperature: {temperature.max}°C
@@ -39,7 +39,7 @@ ForecastDetails.propTypes = {
         date: PropTypes.number,
         description: PropTypes.string,
         humidity: PropTypes.number,
-        icon: PropTypes.string,
+        icon: PropTypes.number,
         temperature: PropTypes.shape({
             max: PropTypes.number,
             min: PropTypes.number,

@@ -20,7 +20,7 @@ const ForecastSummary = ({
                 {temperature.max}°C
             </div>
             <div className="forecast-summary__icon" data-testid="forecast-icon">
-                <WeatherIcon name="owm" iconId={icon} />
+                <WeatherIcon name="owm" iconId={icon.toString()} />
             </div>
             <button type="button" onClick={() => onSelect(date)}>
                 More details

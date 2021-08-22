@@ -8,6 +8,20 @@ exports[`App component Renders correctly (snapshot) 1`] = `
     <h1>
       Weather App
     </h1>
+    <div
+      class="search-form"
+    >
+      <input
+        placeholder="Location"
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
     <h1>
       , 
     </h1>

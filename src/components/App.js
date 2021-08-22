@@ -49,13 +49,17 @@ const App = () => {
                 country={location.country}
                 errorMessage={errorMessage}
             />
-            {selectedForecast && (
-                <ForecastDetails forecast={selectedForecast} />
+            {!errorMessage && (
+                <>
+                    {selectedForecast && (
+                        <ForecastDetails forecast={selectedForecast} />
+                    )}
+                    <ForecastSummaries
+                        forecasts={forecasts}
+                        onForecastSelect={handleForecastSelect}
+                    />
+                </>
             )}
-            <ForecastSummaries
-                forecasts={forecasts}
-                onForecastSelect={handleForecastSelect}
-            />
         </div>
     );
 };

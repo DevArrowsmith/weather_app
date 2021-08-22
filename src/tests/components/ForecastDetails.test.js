@@ -8,7 +8,7 @@ describe("ForecastDetails", () => {
             date: 1525046400000,
             description: "Stub description",
             humidity: 30,
-            icon: "800",
+            icon: 800,
             temperature: {
                 min: 12,
                 max: 34,

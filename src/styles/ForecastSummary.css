@@ -1,0 +1,29 @@
+.forecast-summary {
+    margin: 0 20px;
+}
+
+.forecast-summary__date {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.forecast-summary__icon, .forecast-summary__description, .forecast-summary__temperature {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-summary__button {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}

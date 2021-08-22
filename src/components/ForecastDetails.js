@@ -28,7 +28,7 @@ const ForecastDetails = ({ forecast }) => {
                 Wind speed: {wind.speed}mph
             </div>
             <div className="forecast-details__wind-direction">
-                Wind direction: {wind.direction}
+                Wind direction: {wind.direction.toUpperCase()}
             </div>
         </div>
     );

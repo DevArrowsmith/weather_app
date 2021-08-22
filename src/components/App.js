@@ -38,7 +38,7 @@ const App = () => {
 
     return (
         <div className="weather-app">
-            <h1>Weather App</h1>
+            <h1>Weather Forecast</h1>
             <SearchForm
                 searchText={locationSearchText}
                 setSearchText={setLocationSearchText}

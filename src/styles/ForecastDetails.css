@@ -1,3 +1,26 @@
 .forecast-details {
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow:         5px 5px 3px #ccc;
+}
+
+.forecast-details__date {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.forecast-details__icon, .forecast-details__description {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
